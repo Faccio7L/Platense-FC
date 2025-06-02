@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Contacto - Club Atlético Platense</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #8B4513;">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <img src="imagenes/Escudo_del_Club_Altético_Platense.svg.png" alt="Platense" width="40" height="40" class="me-2">
+                Club Atlético Platense
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="historia.html">Historia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="plantel.html">Plantel</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="estadio.html">Estadio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="noticias.html">Noticias</a>
+                    </li>                    <li class="nav-item">
+                        <a class="nav-link active" href="socios.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <div class="bg-primary text-white py-5" style="background-color: #8B4513 !important;">        <div class="container">
+            <h1 class="display-4 fw-bold">Contacto</h1>
+            <p class="lead">Ponete en contacto con nosotros</p>
+        </div>
+    </div>
+
+    <!-- Contenido -->
+    <div class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">                <!-- Información de contacto -->
+                <div class="card mb-5">
+                    <div class="card-header" style="background-color: #8B4513; color: white;">
+                        <h3 class="mb-0">Información de Contacto</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h5>Sede Social</h5>
+                                <p><i class="text-primary me-2">📍</i>Vicente López 1682, Vicente López<br>Buenos Aires, Argentina</p>
+                                <p><i class="text-primary me-2">📞</i>(011) 4513-2580</p>
+                                <p><i class="text-primary me-2">✉️</i>info@platense.com.ar</p>
+                            </div>
+                            <div class="col-md-6">
+                                <h5>Horarios de Atención</h5>
+                                <p><strong>Lunes a Viernes:</strong> 9:00 a 18:00hs</p>
+                                <p><strong>Sábados:</strong> 9:00 a 13:00hs</p>
+                                <p><strong>Domingos:</strong> Cerrado</p>
+                                <p><strong>Días de partido:</strong> 3 horas antes del encuentro</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>                <!-- Formulario de Contacto -->
+                <div class="card shadow">
+                    <div class="card-header" style="background-color: #8B4513; color: white;">
+                        <h3 class="mb-0">Formulario de Contacto</h3>
+                    </div>
+                    <div class="card-body">
+                        <form id="form">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="field mb-3">
+                                        <label for="name" class="form-label">Nombre Completo *</label>
+                                        <input type="text" class="form-control" name="name" id="name" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="field mb-3">
+                                        <label for="email" class="form-label">Email *</label>
+                                        <input type="email" class="form-control" name="email" id="email" required>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="field mb-3">
+                                        <label for="title" class="form-label">Asunto *</label>
+                                        <input type="text" class="form-control" name="title" id="title" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="field mb-3">
+                                        <label for="time" class="form-label">Fecha/Hora preferida de contacto</label>
+                                        <input type="text" class="form-control" name="time" id="time" placeholder="Ej: Lunes 10-12hs">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="field mb-3">
+                                <label for="message" class="form-label">Mensaje *</label>
+                                <textarea class="form-control" name="message" id="message" rows="5" placeholder="Escribí tu consulta o mensaje..." required></textarea>
+                            </div>
+
+                            <div class="text-center">
+                                <input type="submit" id="button" class="btn btn-lg px-5" style="background-color: #8B4513; color: white;" value="Enviar Mensaje">
+                            </div>
+                        </form>
+                    </div>
+                </div>                <!-- Información adicional -->
+                <div class="card mt-4">
+                    <div class="card-body">
+                        <h5 class="card-title">¿Necesitás ayuda?</h5>
+                        <p class="card-text">Si tenés alguna consulta, no dudes en contactarnos:</p>
+                        <p class="card-text">
+                            <strong>Teléfono:</strong> (011) 4513-2580<br>
+                            <strong>Email:</strong> info@platense.com.ar<br>
+                            <strong>Horarios de atención:</strong> Lunes a Viernes de 9:00 a 18:00hs
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-white py-4" style="background-color: #8B4513;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Club Atlético Platense</h5>
+                    <p class="mb-0">Vicente López 1682, Vicente López<br>
+                    Buenos Aires, Argentina</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="mb-0">© 2023 Club Atlético Platense</p>
+                    <p class="mb-0">Todos los derechos reservados</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src='main.js'></script>
+    
+    <!-- EmailJS Scripts -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        emailjs.init('wRxqLdaYaG_vY1ZQW')
+    </script>
+    
+    <script>
+        const btn = document.getElementById('button');
+
+        document.getElementById('form')
+        .addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            btn.value = 'Enviando...';
+
+            const serviceID = 'default_service';
+            const templateID = 'template_6zfvlvj';            emailjs.sendForm(serviceID, templateID, this)
+            .then(() => {
+                btn.value = 'Enviar Mensaje';
+                alert('¡Mensaje enviado correctamente! Nos pondremos en contacto contigo pronto.');
+                document.getElementById('form').reset();
+            }, (err) => {
+                btn.value = 'Enviar Mensaje';
+                alert('Error al enviar el mensaje. Por favor, intentá nuevamente.');
+                console.error('EmailJS error:', err);
+            });
+        });
+    </script>
+</body>
+</html>
