@@ -1,1 +1,1 @@
-DALE CAMPEONNN DALE CAMPEONNNNN, PLATENSE CAMPEON DEL TORNEO APERTURA 2025 VAMO CARAJOOOOOOOOOOOOOOOOOO
+soy santi me comom el pitoooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
